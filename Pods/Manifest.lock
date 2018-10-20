@@ -1,30 +1,43 @@
 PODS:
   - Alamofire (4.7.3)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - DateToolsSwift (4.0.0)
   - KeychainAccess (3.1.1)
   - OAuthSwift (1.2.2)
   - OAuthSwiftAlamofire (0.2.0):
     - Alamofire
     - OAuthSwift
+  - TTTAttributedLabel (2.0.0)
 
 DEPENDENCIES:
   - Alamofire
+  - AlamofireImage
+  - DateToolsSwift
   - KeychainAccess
   - OAuthSwift
   - OAuthSwiftAlamofire
+  - TTTAttributedLabel
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - AlamofireImage
+    - DateToolsSwift
     - KeychainAccess
     - OAuthSwift
     - OAuthSwiftAlamofire
+    - TTTAttributedLabel
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
   KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
   OAuthSwift: 27b34fe80b76b67cd8f45571e0be2432bc9f6de1
   OAuthSwiftAlamofire: e51f11ff579dd4293bfe2a1a24c658caad4dac35
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: 5d059e4862cedd24a13492fbfec633982145b510
+PODFILE CHECKSUM: 6ff533cd6382d021c811a2a5d7dddc4588e01ae5
 
 COCOAPODS: 1.5.3
